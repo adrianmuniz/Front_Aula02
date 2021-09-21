@@ -9,13 +9,11 @@
 
 body {
     font-family: 'Work Sans', Courier, monospace;
-    color: #fff;
 }
 
 .header_page{
     width: 100%;
-    height: 150px;
-    background-color: #000;
+    height: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,10 +34,73 @@ body {
 
 .menu a{
     text-decoration: none; 
-    color: #fff;
+    color: rgb(10, 58, 121);
     font-weight: 900;
 }
 
 .menu a:hover{
     color: #dc143c;
 }
+
+.container {
+    width: 95%;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.imagem_fundo{
+    background-image: url(../images/praia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero_title{
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+.hero_text{
+    color: #fff;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px 0;
+    line-height: 38px;
+}
+
+.hero_link{
+    color: #fff;
+    text-decoration: none;
+    background-color: #dc143c;
+    border: 1px solid #dc143c;
+    padding: 30px 60px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 15px 40px;
+}
+
+.hero_link:hover{
+    background-color: transparent;
+    color: #dc143c;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+
